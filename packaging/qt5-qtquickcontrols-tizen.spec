@@ -22,7 +22,7 @@
 
 Name:       qt5-qtquickcontrols-tizen
 Summary:    Qt Quick Controls Tizen
-Version:    5.2.2
+Version:    5.3alpha
 Release:    0
 Group:      Base/Libraries
 License:    LGPL-2.1 or GPL-3.0
