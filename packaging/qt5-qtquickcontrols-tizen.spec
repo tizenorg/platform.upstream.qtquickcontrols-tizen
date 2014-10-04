@@ -22,7 +22,7 @@
 
 Name:       qt5-qtquickcontrols-tizen
 Summary:    Qt Quick Controls Tizen
-Version:    5.3.1
+Version:    5.3.99+beta1
 Release:    0
 Group:      Base/Libraries
 License:    LGPL-2.1 or GPL-3.0
@@ -47,9 +47,9 @@ This package contains the Qt Quick Controls for Tizen library
 
 %prep
 %setup -q -n %{name}-%{version}
-cp %{SOURCE1001} .
 
 %build
+cp %{SOURCE1001} .
 export QTDIR=/usr/share/qt5
 touch .git # To make sure syncqt is used
 
